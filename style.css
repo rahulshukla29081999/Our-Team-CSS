@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Kaushan+Script&display=swap');
+*{
+
+margin: 0;
+padding:0 ;
+box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(233, 178, 27);
+    font-family: 'Josefin sans',sans-serif;
+
+}
+.wrapper{
+margin-top: 10%;
+
+}
+.wrapper h1{
+    font-family: 'Allura',cursive;
+    font-size: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.team{
+display :flex ;
+text-align: center;
+width: auto;
+justify-content: center;
+
+}
+.team .team_member{
+
+    background-color: rgb(186, 208, 229);
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 400px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+   
+}
+.team .team_member h3{
+    color: rgb(243, 67, 67);
+    font-size: 36px;
+    margin-top: 50px;
+   
+}
+.team .team_member p.role{
+
+    color: rgb(201, 16, 16);
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 12px 0px;
+}
+
+.team .team_member  .team_img  img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
